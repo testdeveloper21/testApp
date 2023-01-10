@@ -1,1 +1,1 @@
-# testApp
+# testApp  read my all setps 
