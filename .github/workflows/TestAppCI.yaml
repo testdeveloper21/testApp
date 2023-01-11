@@ -54,4 +54,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish TestAppCI/TestAppCI.csproj -c Release -o website
+      run: dotnet publish ./testapp/TestAppCI/TestAppCI.csproj -c Release -o website
