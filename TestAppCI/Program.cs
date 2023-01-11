@@ -15,7 +15,7 @@ namespace TestAppCI
         {
             CreateHostBuilder(args).Build().Run();
         }
-        tet
+        
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
