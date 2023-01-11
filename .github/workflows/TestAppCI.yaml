@@ -29,5 +29,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: website
-        path: TestAppCI/website/**
+        path: TestAppCI/**
         if-no-files-found: error
