@@ -1,4 +1,4 @@
-name: .NET build {{secrets.debu}}
+name: .NET build {{secrets.DEBU}}
 
 on:
   push:
@@ -29,5 +29,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: website
-        path: TestAppCI/**
-        if-no-files-found: error
+        path: TestAppCI22/**
+        if-no-files-found: error {{secrets.DEBU}}
